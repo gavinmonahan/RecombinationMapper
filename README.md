@@ -1,2 +1,2 @@
 # RecombinationMapper
-Python scripts for recombination rate estimation
+Python package for recombination rate estimation
