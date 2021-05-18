@@ -7,8 +7,8 @@ Python package for recombination rate estimation and haplotype block and structu
 
 Easiest way to install everything is in a conda environment, required packages are listed in requirements.txt.
 
-1.	git clone https://github.com/gavinmonahan/RecombinationMapper.git
-2.	conda create -n recombination_mapper --file ./RecombinationMapper/requirements.txt
+1.	`git clone https://github.com/gavinmonahan/RecombinationMapper.git`
+2.	`conda create -n recombination_mapper --file ./RecombinationMapper/requirements.txt`
 
 
 ## Usage
