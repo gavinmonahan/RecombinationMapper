@@ -14,7 +14,7 @@ Easiest way to install everything is in a conda environment, required packages a
 ## Usage
 
 A wrapper bash script can be editted which calls all of the python scripts.
-  `bash run_all.sh`
+  `bash recomb_mapper.sh`
   
 For the most part, the scripts will find the relavent file automatically. The only required parameters are the VCF file and height/groups (see `cluster.py`), therefore you should run cluster.py once to find an appropriate height/groups value before running the wrapper script. Alternatively, the individual python scripts can be called separetely.
 
