@@ -1,9 +1,9 @@
-# RecombinationMapper
+# Recombination Mapper
 
 Python package for recombination rate estimation and haplotype block and structural variation detection.
 
 
-# Installation
+## Installation
 
 Easiest way to install everything is in a conda environment, required packages are listed in requirements.txt.
 
@@ -11,7 +11,7 @@ Easiest way to install everything is in a conda environment, required packages a
 2.	conda create -n recombination_mapper --file ./RecombinationMapper/requirements.txt
 
 
-# Usage
+## Usage
 
 A wrapper bash script can be editted which calls all of the python scripts.
   `bash run_all.sh`
