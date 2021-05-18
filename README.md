@@ -1,6 +1,6 @@
 # RecombinationMapper
 
-Python package for recombination rate, haplotype block, and structural variation estimation
+Python package for recombination rate estimation and haplotype block and structural variation detection.
 
 
 # Installation
