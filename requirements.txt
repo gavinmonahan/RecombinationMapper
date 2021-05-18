@@ -1,0 +1,9 @@
+#Packages for Recombination Mapper
+Python=3.8.8
+scipy
+numpy
+matplotlib
+scikit-allel
+pandas
+fastcluster
+seaborn
