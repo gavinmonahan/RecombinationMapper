@@ -18,6 +18,8 @@ A wrapper bash script can be editted which calls all of the python scripts.
   
 For the most part, the scripts will find the relavent file automatically. The only required parameters are the VCF file and height/groups (see `cluster.py`), therefore you should run cluster.py once to find an appropriate height/groups value before running the wrapper script. Alternatively, the individual python scripts can be called separetely.
 
+sci-kit allel is used for parsing VCF files and header errors can cause problems. Escpecially where the Genotype field is not defined in the header.
+
 ### cluster.py
 
 Cluster.py clusters individuals together (as the name would suggest) using Ward clustering. Two clustermaps; before and after clustering are exported as well as a dendrogram. Users can specify the height they wish to cut the dendrogram (`-h --height`) or the number of groups they wish to form (`-n --num_groups`). This results in a population groupings file which contains each individuals name and the group they belong to, which can be used for introgression analysis (D-suite or ABBABABAwindows) and for grouping in recomb_rates.py (see below).
